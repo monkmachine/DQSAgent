@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-addressdoctor.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-addresses-can.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-addresses-commons.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-addresses-gb.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-addresses-new.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-addresses-us.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-analysis.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-api.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-api-layer.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-clean.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-clean-usc.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-clean-weu.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-commons.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-communication.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-discovery.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-docbuilder.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-doc-processor.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-dtdb.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-dtdb-driver.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-dtdb-server.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-expressions.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-gdr.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-identify.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-incremental.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-io.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-io-msoffice.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-jms.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-jms-sqs.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-loqate.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-match.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-model.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-model-validation.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-msoffice.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-nlp.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-online.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-online-client.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-online-sql-client.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-processor.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-profiling.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-profiling-api.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-profiling-results-model.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-repository.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-resources.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-rpc.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-server.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-server-component-derby.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-server-component-h2.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-server-interfaces.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-simple-cluster.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-soap.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-tasks.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-tasks-common.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-tools.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-web.jar"/>
+	<classpathentry kind="lib" path="G:/TIB_dqs_12.6.3_win_x86_64/runtime/lib/cif-web-api.jar"/>
+	<classpathentry kind="src" path="build"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

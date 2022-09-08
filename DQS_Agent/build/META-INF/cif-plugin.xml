@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cif-plugin name="CmdAgent">
+	<message-resources>
+		<resources-file type="resource-bundle" name="dan.Messages"/>
+	</message-resources>
+<version-info buildString="12.6.3"/>
+</cif-plugin>
