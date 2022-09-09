@@ -1,7 +1,8 @@
 package dan;
 
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
+import java.io.InputStreamReader;
 
 import com.ataccama.dqc.model.annotations.Algorithm;
 import com.ataccama.dqc.model.annotations.AlgorithmCategory;
@@ -114,19 +115,44 @@ public class CmdAgent extends ComplexStepConfigBase {
 			while ((recs = in1QE.getBatch()) != null) {
 				for (IRecord r: recs) {
 					outBatcher.addRecord(copyRecord(r));
+					System.out.println(r.getRecordFormat());
+					System.out.println(r.internalGet(0));
+					ColumnInfo[] outCols = outFmt.getColumns();
+					System.out.println(outCols = outFmt.getColumns());
+					
+					
 				}
 			}
-			Runtime runtime = Runtime.getRuntime();
+			
+			
+			ProcessBuilder processBuilder = new ProcessBuilder("G:\\TIB_dqs_12.6.3_win_x86_64\\runtime\\bin\\runcif.bat");
 			try {
-			    Process p1 = runtime.exec("cmd /c start G:\\TIB_dqs_12.6.3_win_x86_64\\runtime\\bin\\runcif.bat");
-			    InputStream is = p1.getInputStream();
-			    int i = 0;
-			    while( (i = is.read() ) != -1) {
-			        System.out.print((char)i);
-			    }
-			} catch(IOException ioException) {
-			    System.out.println(ioException.getMessage() );
-			}
+
+	            Process process = processBuilder.start();
+
+	            StringBuilder output = new StringBuilder();
+
+	            BufferedReader reader = new BufferedReader(
+	                    new InputStreamReader(process.getInputStream()));
+
+	            String line;
+	            while ((line = reader.readLine()) != null) {
+	                output.append(line + "\n");
+	            }
+
+	            int exitVal = process.waitFor();
+	            if (exitVal == 0) {
+	                System.out.println(output);
+	                System.exit(0);
+	            } else {
+	            	System.out.println(output);
+	            }
+
+	        } catch (IOException e) {
+	            e.printStackTrace();
+	        } catch (InterruptedException e) {
+	            e.printStackTrace();
+	        }
 			outBatcher.close();
 		}
 
